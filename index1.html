@@ -9,11 +9,12 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="bg-light" style="max-width:100%">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<body class="bg-light">
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg bg-light shadow-sm sticky-top p-3 pt-0 pb-0 col-sm-">
   <div class="container-fluid">
-    <div class="navbar-brand ps-1">
+    <div class="navbar-brand ps-3">
       <img src="./img/5b84d407b187a38ab84ae0f1e0491433.webp" class=" rounded-4 shadow"width="50px" height="50px" alt="">
     </div>
     <button class="navbar-toggler text-bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,10 +55,10 @@
   <div class="container-lg">
     <div class="m-5 ms-0 row min-vh-100 opacity-7 container-lg align-content-center align-items-center d-flex justify-content-center">
       <div class="col-md-6 justify-content-center align-items-center">
-        <img src="./img/prof.png"width=250px; height="250px" class=" rounded-circle shadow-lg headline"alt="">
+        <img src="./img/prof.png"width=250px; height="250px" class=" rounded-circle shadow-lg " data-aos="fade-left" data-aos-duration="2000" alt="">
       </div>
 
-      <div class="col-md-6 order-md-first justify-content-center align-items-center ">
+      <div class="col-md-6 order-md-first justify-content-center align-items-center "data-aos="fade-right"data-aos-duration="2000">
         <p class=" text-dark headline">Hello I'm</p>
         <h1 class="text-dark headline">a FrontEnd Developer</h1>
         <h2 headline>a Grade 10student <span class="text-dark">(CDM)</span>
@@ -74,10 +75,10 @@
 <!-- skilll -->
 <article class="skill px-4" id="skills headline">
   <div class="container-lg">
-    <div class="row">
+    <div class="row"data-aos="fade-down"  data-aos-duration="1500">
       <h1 class="text-dark fw-bold p-3 text-center text-capitalize headline">Those what I'm Good at</h1>
       <div class="row ms-1 mt-3 p-2">
-        <div class="col-md-6 headline"><!--col1-->
+        <div class="col-md-6 headline"data-aos="fade-down"  data-aos-duration="1500"><!--col1-->
           <div class="text-light mb-5">
             <h3 class="text-black fs-4 mb-2  headline-none">Freelancer</h3>
             <p class=" text-dark headline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod suscipit optio illum dolorem velit, ad doloremque nemo recusandae minus est iure consectetur at non. Itaque quas pariatur modi, eligendi rerum praesentium, dolor recusandae soluta vero sequi incidunt ad iure dolore?</p>
@@ -121,7 +122,7 @@
             </div>
           </div>
         </div> <!--col2-->
-        <div class="col-md-6 shadow-lg p-5 rounded-3 headline">
+        <div class="col-md-6 shadow-lg p-5 rounded-3 headline " data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
           <div class="percent-box mb-5">
             <h4 class=" text-dark fs-4 mb-3  rounded-2">HTML<i class="fa-brands fa-html5 ms-1"></i></h4>
             <div class="progress" style="height: 4px;">
@@ -164,16 +165,15 @@
     <div class="row">
       <h1 class="text-center text-black fw-bold mb-5 headline-none">Available Abilities</h1>
       <div class="row text-center bg-light me-2">
-      <div class="col-md-4 col-lg-4 p-3 align-content-center headline">
+      <div class="col-md-4 col-lg-4 p-3 align-content-center headline" data-aos="fade-up" data-aos-duration="2000">
         <div class="card-icn p-4 rounded bg-white mb-3 shadow-lg ms-4">
           <i class="fa-solid fa-code fs-3 text-danger"></i>
           <h3 class=" text-black mb-2 mt-2 fw-bolder">Web Development</h3>
           <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quibusdam, reiciendis minima reprehenderit provident dignissimos dolorem quo animi quidem at.</p>
-          
         </div>
       </div>
       <div class="col-md-4 col-lg-4 p-3 align-content-center headline">
-        <div class="card-icn p-4 rounded bg-white mb-3 shadow-lg ms-4">
+        <div class="card-icn p-4 rounded bg-white mb-3 shadow-lg ms-4" data-aos="fade-up" data-aos-duration="2000">
           <i class="fa-solid fa-lightbulb fs-3 text-dark"></i>
           <h3 class=" text-black mb-2 mt-2 fw-bolder">Creative designs</h3>
           <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quibusdam, reiciendis minima reprehenderit provident dignissimos dolorem quo animi quidem at.</p>
@@ -181,11 +181,10 @@
         </div>
       </div>
       <div class="col-md-4 col-lg-4 p-3 align-content-center headline">
-        <div class="card-icn p-4 rounded bg-white mb-3 shadow-lg ms-4">
+        <div class="card-icn p-4 rounded bg-white mb-3 shadow-lg ms-4" data-aos="fade-up" data-aos-duration="2000">
           <i class="fa-solid fa-rocket fs-3 text-warning"></i>
           <h3 class=" text-black mb-2 mt-2 fw-bolder">Time Taken Fast</h3>
           <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quibusdam, reiciendis minima reprehenderit provident dignissimos dolorem quo animi quidem at.</p>
-     
         </div>
       </div>
       </div>
@@ -196,58 +195,7 @@
   <div class="container-fluid">
     <h1 class="text-black fw-bolder mb-5 text-center headline-none">My Work Dones</h1>
     <div class="row m-1">
-      <div class="col-md-4 mb-3 headline">
-        <div class="img-cont position-relative">
-          <img src="./img/project5.jpg" class=" w-100 shadow-lg rounded" style="height:100vh;" alt="">
-          <div class="clicking mt-1 position-absolute bottom-0 text-center">
-            <a href="" class="btn btn-toolbar btn-outline-danger fw-light px-3">Live Demo<i class="fa-solid fa-play mt-2 mx-1"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-3 headline">
-        <div class="img-cont position-relative">
-          <img src="./img/Creative WebPage Design.jpg" class=" w-100 shadow-lg rounded" style="height:100vh;" alt="">
-          <div class="clicking mt-1 position-absolute bottom-0 text-center">
-            <a href="" class="btn btn-toolbar btn-outline-danger fw-light  px-3">Live Demo<i class="fa-solid fa-play mt-2 mx-1"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-3 headline">
-        <div class="img-cont position-relative">
-          <img src="./img/pj-md.png" class=" w-100 shadow-lg rounded" style="height:100vh;" alt="">
-          <div class="clicking mt-1 position-absolute bottom-0 text-center">
-            <a href="" class="btn btn-toolbar btn-outline-danger fw-light  px-3">Live Demo<i class="fa-solid fa-play mt-2 mx-1"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-      <div class="row m-4 ms-0 headline">
-        <div class="col-md-4 mb-3">
-          <div class="img-cont position-relative">
-            <img src="./img/project4.png" class=" w-100 shadow-lg rounded" style="height:100vh;" alt="">
-            <div class="clicking mt-1 position-absolute bottom-0 text-center">
-              <a href="" class="btn btn-toolbar btn-outline-danger fw-light  px-3">Live Demo<i class="fa-solid fa-play mt-2 mx-1"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="img-cont position-relative">
-            <img src="./img/project6.png" class=" w-100 shadow-lg rounded" style="height:100vh;" alt="">
-            <div class="clicking mt-1 position-absolute bottom-0 text-center">
-              <a href="" class="btn btn-toolbar btn-outline-danger fw-light  px-3">Live Demo<i class="fa-solid fa-play mt-2 mx-1"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="img-cont position-relative">
-            <img src="./img/project7.png" class=" w-100 shadow-lg rounded" style="height:100vh;" alt="">
-            <div class="clicking mt-1 position-absolute bottom-0 text-center">
-              <a href="" class="btn btn-toolbar btn-outline-danger fw-light  px-3">Live Demo<i class="fa-solid fa-play mt-2 mx-1"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row m-2 text-end ms-0 headline" >
+      <div class="row m-2 text-end ms-0 headline"data-aos="fade-up" data-aos-duration="1500">
         <div class="col-md-6 mb-3">
           <div class="img-cont position-relative">
             <img src="./img/Multipurpose Admin Dashboard UI.jpg" class=" w-100 shadow-lg rounded" style="height:70vh;" alt="">
@@ -257,14 +205,14 @@
           </div>
         </div>
         <div class="col-md-6 mb-3 headline">
-          <div class="img-cont position-relative">
+          <div class="img-cont position-relative"data-aos="fade-down" data-aos-duration="1500">
             <img src="./img/20 Beautifully Designed Admin Dashboards for Inspiration.png" class=" w-100 shadow-lg rounded" style="height:70vh;" alt="">
             <div class="clicking mt-1 position-absolute bottom-0 text-center">
               <a href="#" class="btn btn-toolbar btn-outline-danger fw-light  px-3">Live Demo<i class="fa-solid fa-play mt-2 mx-1"></i></a>
             </div>
           </div>
         </div>
-        <div class="row m-2 text-end ms-0 headline">
+        <div class="row m-2 text-end ms-0 headline"data-aos="fade-up" data-aos-duration="1500">
           <div class="col-md-6 mb-3">
             <div class="img-cont position-relative">
               <img src="./img/project2.png" class=" w-100 shadow-lg rounded" style="height:70vh;" alt="">
@@ -273,7 +221,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 mb-3 headline">
+          <div class="col-md-6 mb-3 headline"data-aos="fade-down" data-aos-duration="1500">
             <div class="img-cont position-relative">
               <img src="./img/project3.jpg" class=" w-100 shadow-lg rounded" style="height:70vh;" alt="">
               <div class="clicking mt-1 position-absolute bottom-0 text-center">
@@ -285,11 +233,11 @@
       </div>
   </div>
 </section>
-<section class="team mt-5" id="members headline">
+<section class="team mt-5" id="members headline" >
   <div class="container-lg">
     <h1 class="text-dark fw-bolder mb-5 text-center headline-none">Our Team Members</h1>
     <div class="row justify-content-center pt-1 pb-5">
-      <div class="col-lg-8">
+      <div class="col-lg-8"data-aos="fade-right" data-aos-duration="1500">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
@@ -388,7 +336,7 @@
   <h1 class="text-center text-dark fw-bolder mb-5">Contact Us</h1>
   <div class="container-md">
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-5" data-aos="fade-right" data-aos-duration="1200">
         <div class=" py-5">
           <div class="">
             <div class=" d-flex">
@@ -409,13 +357,13 @@
               <i class="fa-solid fa-map-location-dot fs-3 my-3 text-dark mx-2"></i>
               <div class="text">
                 <h3 class=" text-muted fw-bold fs-4">Phone</h3>
-                <p class=" text-muted">Yangon</p>
+                <p class=" text-muted" >Yangon</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-7 justify-content-start align-items-center px-5" >
+      <div class="col-md-7 justify-content-start align-items-center px-5" data-aos="fade-left" data-aos-duration="1200">
         <form action="#" class="">
           <div class="row my-3">
             <div class="col-md-6 my-2">
@@ -480,14 +428,9 @@
 </body>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script>
-  ScrollReveal().reveal('.headline', {
-	interval: 140,
-	reset: true,
-  delay:300
-});
-ScrollReveal().reveal('.headline-none', { delay: 500 })
- 
-</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+ </script>
 </html>
